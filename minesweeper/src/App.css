@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.game-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /*background-color: #282c34;*/
+}
+
+.minefield {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /*width: 18em;*/
+}
+
+.field-button {
+  /*width: 2em;
+  height: 2em;*/
+  width: 30px;
+  height: 30px;
+  flex-basis: auto;
+  flex-grow: 1;
+  background-color: #55ff55;
+  border-color: #33aa33;
+  /*border-width: 0.2em;*/
+  padding: 0px;
+}
+
+.game-container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30em;
+  /*background-color: blue;*/
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#customization-panel {
+  display: flex;
+  flex-direction: row;
+  min-width: 30em;
+  justify-content: space-around;
+  align-content: center;
+  margin-bottom: 1em;
+}
+
+.customization-panel-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.customization-panel-item > div {
+  margin-right: 0.8em;
+}
+
+.customization-button-count {
+  color: #aaaaaa;
+  font-size: 15px;
+  margin-bottom: 0.5em;
+}
+
+#customization-panel > div > input {
+  width: 3em;
+}
+
+.customization-warning {
+  color: red;
+  margin-bottom: 1em;
+}
+
+#flag-enumerator,
+#timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#face-button {
+  height: 3em;
+  border-width: 3px;
+}
+
+#face-button > img {
+  height: 2.5em;
+}
