@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from "react";
-//import logo from "./logo.svg";
-import "./App.css";
-
-/********************************* TIC-TAC-TOE *********************************
+/**
+ * Copyright (c) Pedro Vinicius Pereira de Andrade
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ ********************************* TIC-TAC-TOE *********************************
  ** This program is a test for a tic-tac-toe game made with React.            **
  ** Author: Pedro Vinicius Pereira de Andrade                                 **
  **                                                                           **
@@ -10,6 +12,9 @@ import "./App.css";
  ** https://github.com/pedrovandrade                                          **
  **                                                                           **
  ******************************************************************************/
+
+import React, { useState, useEffect } from "react";
+import "./App.css";
 
 /**
  * Game button component, responsible for setting the "X" or "O" marks on the
@@ -294,27 +299,6 @@ function TicTacToe() {
     </div>
   );
 }
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
 
 function App() {
   return (
