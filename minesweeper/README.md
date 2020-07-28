@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 MINESWEEPER
+===========
 
 To run this game, first install the necessary dependencies (Create React App dependencies) by executing `npm install`.
 
